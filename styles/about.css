@@ -1,0 +1,162 @@
+/* Genel ayarlar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #2c3e50, #3498db); /* Gradyan arka plan */
+    background-size: cover;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+/* Hakkında konteyner */
+.about-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Şeffaf arka plan */
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Profil fotoğrafı */
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #f1f1f1;
+}
+
+/* Başlıklar */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #ffcc00;
+}
+
+
+.about-container:hover {
+    transform: scale(1.02); /* Hafif büyütme efekti */
+    box-shadow: 5px 5px 20px rgba(0, 123, 255, 0.3); /* Daha belirgin gölge */
+    border-color: #007bff; /* Çerçeve rengi değişimi */
+  }
+/* Paragraf */
+.about-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+html, body {
+    height: 100%;  /* Sayfanın tamamını kapsasın */
+    margin: 0;     /* Tarayıcı margin'ini sıfırla */
+    display: flex;
+    flex-direction: column; /* İçeriği dikey sıralamak için */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    /* Hafif gri arka plan */
+}
+
+header {
+    background-color: #1e212d;
+    /* Koyu lacivert */
+    color: #f1f1f1;
+    /* Beyaz metin */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    /*furkan koz yazan yer*/
+    flex-direction: column;
+    text-align: center;
+}
+
+nav {
+    background-color: #2c2f3e;
+    /* Daha açık lacivert */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+nav a {
+    color: #f1f1f1;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    position: relative;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ff5722;
+    /* Turuncu hover */
+    color: #fff;
+}
+
+footer {
+    width: 100%;
+    background-color: #1e212d;
+    /* Koyu lacivert */
+    color: #f1f1f1;
+    text-align: center;
+    margin-top: auto;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a {
+    margin-top: 10px;
+    font-size: 40px;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+
+/* Medya sorgusu: Telefon ve tablet görünümü */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+        /* Başlık fontunu küçült */
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 10px 0;
+        /* Linklerin arasını arttır */
+        font-size: 1.2rem;
+        /* Daha büyük yazı */
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+}

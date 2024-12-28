@@ -1,0 +1,147 @@
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #1e212d;
+    /* Koyu lacivert */
+    border-bottom: 3px solid #ff5722;
+    /* Turuncu vurgu */
+    padding-bottom: 10px;
+}
+
+article {
+    background: #ffffff;
+    /* Beyaz kart */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #ff5722;
+    /* Turuncu şerit */
+}
+
+article h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #1e212d;
+}
+
+article p {
+    margin: 10px 0 0;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    /* Mavi buton */
+    color: #fff;
+    padding: 10px 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    /* Daha koyu mavi */
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 15px;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+        /* Başlık fontunu biraz küçült */
+    }
+
+    article {
+        padding: 10px;
+    }
+
+    article h3 {
+        font-size: 1.3rem;
+        /* Başlık fontunu küçült */
+    }
+
+    .btn {
+        padding: 8px 12px;
+        /* Buton boyutunu küçült */
+    }   
+}
+
+/* Ana Galeri Stil */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);  /* Her satırda 5 fotoğraf yan yana olacak */
+    gap: 20px;  /* Fotoğraflar arasındaki mesafe */
+    margin-top: 20px;
+  }
+  
+  .gallery article {
+    background-color: #fff;
+    /* Beyaz kart */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;  /* Görsellerin taşmaması için */
+    transition: transform 0.3s ease;
+    border: 1px solid #ff5722;  /* Turuncu çerçeve */
+  }
+  
+  .gallery article:hover {
+    transform: scale(1.05);  /* Hover efekti: biraz büyüme */
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;  /* Görselin kapsayıcıya tam uymasını sağlar */
+    border-radius: 8px;
+    display: block;
+  }
+  
+  .gallery h3 {
+    font-size: 1.2rem;
+    color: #1e212d;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Mobil Uyumluluk: Fotoğrafların boyutunu küçült */
+  @media (max-width: 1200px) {
+    .gallery {
+      grid-template-columns: repeat(4, 1fr);  /* 1200px ve altındaki ekranlar için 4 fotoğraf */
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .gallery {
+      grid-template-columns: repeat(3, 1fr);  /* 900px ve altındaki ekranlar için 3 fotoğraf */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .gallery {
+      grid-template-columns: repeat(2, 1fr);  /* 600px ve altındaki ekranlar için 2 fotoğraf */
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .gallery {
+      grid-template-columns: 1fr;  /* 400px ve altındaki ekranlar için tek sütun */
+    }
+  }
+  
+  
+  
