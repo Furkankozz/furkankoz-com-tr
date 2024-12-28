@@ -38,6 +38,11 @@ header h1 {
     text-align: center;
 }
 
+header a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
 nav {
     background-color: #2c2f3e;
     /* Daha açık lacivert */
