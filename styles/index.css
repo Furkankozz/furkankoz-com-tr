@@ -63,6 +63,12 @@ article p {
   color: #555;
 }
 
+.button-container {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
 .btn {
   display: inline-block;
   background-color: #007bff;
@@ -160,8 +166,8 @@ article p {
 
 .gallery article {
   background-color: #fff;
-  padding: 15px;
-  border-radius: 8px;
+  padding: 3px;
+  border-radius: 10px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -199,3 +205,4 @@ article p {
       grid-template-columns: 1fr;
   }
 }
+  

@@ -66,7 +66,7 @@ body {
 }
 
 header {
-    background-color: #1e212d;
+    background-color: #000000;
     /* Koyu lacivert */
     color: #f1f1f1;
     /* Beyaz metin */
@@ -83,7 +83,7 @@ header h1 {
 }
 
 nav {
-    background-color: #2c2f3e;
+    background-color: #000000;
     /* Daha açık lacivert */
     display: flex;
     justify-content: center;
@@ -109,7 +109,7 @@ nav a:hover {
 
 footer {
     width: 100%;
-    background-color: #1e212d;
+    background-color: #000000;
     /* Koyu lacivert */
     color: #f1f1f1;
     text-align: center;
@@ -157,12 +157,12 @@ footer {
 
 /* Tanıtım kutusu tasarımı */
 .about-box {
-    width: 80%;
+    width: 100%;
     max-width: 800px;
     padding: 20px;
     margin: 50px auto;
     background-color: #f9f9f9; /* Açık arka plan rengi */
-    border: 2px solid #ddd; /* Çerçeve rengi */
+    border: 2px solid #006aff; /* Çerçeve rengi */
     border-radius: 15px; /* Köşeleri yuvarlama */
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1); /* Hafif gölge */
     font-size: 18px; /* Yazı boyutu */
@@ -174,7 +174,7 @@ footer {
   
   /* Başlık tasarımı */
   .about-box h2 {
-    font-size: 24px;
+    font-size: 20px;
     color: #007bff; /* Mavi renk */
     margin-bottom: 10px;
     text-align: center; /* Başlığı ortalar */
