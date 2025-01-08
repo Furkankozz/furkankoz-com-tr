@@ -5,10 +5,10 @@
 }
 
 html, body {
-    height: 100%;  /* Sayfanın tamamını kapsasın */
-    margin: 0;     /* Tarayıcı margin'ini sıfırla */
+    height: 100%; 
+    margin: 0;     
     display: flex;
-    flex-direction: column; /* İçeriği dikey sıralamak için */
+    flex-direction: column; 
 }
 
 body {
@@ -18,14 +18,11 @@ body {
     background-color: #f8f9fa;
     display: flex;
     flex-direction: column;
-    /* Hafif gri arka plan */
 }
 
 header {
     background-color: #000000;
-    /* Koyu lacivert */
     color: #f1f1f1;
-    /* Beyaz metin */
     padding: 20px 0;
     text-align: center;
 }
@@ -45,7 +42,6 @@ header a {
 
 nav {
     background-color: #000000;
-    /* Daha açık lacivert */
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -64,14 +60,12 @@ nav a {
 
 nav a:hover {
     background-color: #ff5722;
-    /* Turuncu hover */
     color: #fff;
 }
 
 footer {
     width: 100%;
     background-color: #000000;
-    /* Koyu lacivert */
     color: #f1f1f1;
     text-align: center;
     margin-top: auto;

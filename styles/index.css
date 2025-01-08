@@ -6,19 +6,19 @@ section {
   margin-bottom: 20px;
 }
 
-/* Animasyonlu ve belirgin kenarlıklı başlıklar */
+
 section h2 {
   color: #1e212d;
-  border-bottom: 5px solid #ff5722; /* Kenarlık kalınlaştırıldı */
+  border-bottom: 5px solid #ff5722; 
   padding-bottom: 10px;
   position: relative;
   overflow: hidden;
   animation: slideIn 1s ease-out;
-  background: #f9f9f9; /* Hafif gri arka plan */
-  padding: 15px; /* Daha belirgin görünüm için iç boşluk */
-  border-radius: 8px; /* Köşeler yuvarlatıldı */
-  border: 2px solid #ff5722; /* Turuncu dış kenarlık */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hafif gölge eklendi */
+  background: #f9f9f9; 
+  padding: 15px; 
+  border-radius: 8px; 
+  border: 2px solid #ff5722;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 section h2::before {
@@ -32,20 +32,19 @@ section h2::before {
   animation: underlineSlide 1s ease-out forwards; 
 }
 
-/* Kartların kenarlıkları belirginleştirildi */
 article {
   background: #ffffff;
   margin: 10px 0;
   padding: 15px;
   border-radius: 8px;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Daha yoğun gölge */
-  border: 3px solid #ff5722; /* Kenarlık kalınlaştırıldı */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+  border: 3px solid #ff5722;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 article:hover {
-  transform: scale(1.02); /* Hover efekti */
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.25); /* Hoverda daha yoğun gölge */
+  transform: scale(1.02); 
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.25); 
 }
 
 article h3 {
@@ -53,8 +52,8 @@ article h3 {
   font-size: 1.5rem;
   color: #1e212d;
   animation: fadeIn 1s ease-out;
-  border-bottom: 3px solid #ff5722; /* Turuncu alt çizgi */
-  padding-bottom: 5px; /* Daha belirgin alt çizgi görünümü */
+  border-bottom: 3px solid #ff5722; 
+  padding-bottom: 5px; 
 }
 
 /* Butonlar */
@@ -85,22 +84,20 @@ article p {
   transform: scale(1.1);
 }
 
-/* Tüm .btn sınıfları için genel stil */
 .btn {
   padding: 10px 20px;
-  text-decoration: none; /* Alt çizgi kaldırma */
-  border-radius: 5px; /* Köşeleri yuvarlama */
-  font-size: 16px; /* Yazı boyutu */
-  color: white; /* Metin rengi */
+  text-decoration: none;
+  border-radius: 5px; 
+  font-size: 16px;
+  color: white; 
 }
 
-/* Sadece special-btn sınıfına sahip butonun rengi */
 .special-btn {
-  background-color: #ff5722; /* Yeşil arka plan */
+  background-color: #ff5722; 
 }
 
 .special-btn:hover {
-  background-color: #ff5722; /* Hover (üzerine gelince) daha koyu yeşil */
+  background-color: #ff5722; 
 }
 
 
@@ -156,7 +153,6 @@ article p {
   }
 }
 
-/* Galeri kısmı (kenarlıklar belirginleştirildi) */
 .gallery {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
